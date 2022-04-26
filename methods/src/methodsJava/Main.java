@@ -15,6 +15,9 @@ public class Main {
         System.out.println("EXERCICIO EMPRESTIMO");
 
 Emprestimo.caclValor(1000.0,2.0,12.0);
-
+        System.out.println("EXEMPLO DE METODO SOBRECARGA");
+        methodSobrecarga.area(1.0,2.0);
+        methodSobrecarga.area(1.,3.,5.);
+        methodSobrecarga.area(4.,5.,6.,7.);
     }
 }
