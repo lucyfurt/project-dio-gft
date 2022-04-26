@@ -19,5 +19,9 @@ Emprestimo.caclValor(1000.0,2.0,12.0);
         methodSobrecarga.area(1.0,2.0);
         methodSobrecarga.area(1.,3.,5.);
         methodSobrecarga.area(4.,5.,6.,7.);
+        System.out.println("EXEMPLO DE METODO SOBRECARGA COM METODO");
+
+        double areQuadrado = methodSobrecargaReturn.area(2.,3.);
+        System.out.println(areQuadrado);
     }
 }
